@@ -1,0 +1,5 @@
+/mnt/c/AdvProgConcepts/Week1/assignment/build/CMakeFiles/edit_cache.dir
+/mnt/c/AdvProgConcepts/Week1/assignment/build/CMakeFiles/rebuild_cache.dir
+/mnt/c/AdvProgConcepts/Week1/assignment/build/assignment/CMakeFiles/assignment.dir
+/mnt/c/AdvProgConcepts/Week1/assignment/build/assignment/CMakeFiles/edit_cache.dir
+/mnt/c/AdvProgConcepts/Week1/assignment/build/assignment/CMakeFiles/rebuild_cache.dir
