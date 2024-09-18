@@ -1,17 +1,18 @@
-#ifndef LESSON_ILOGGER_H
-#define LESSON_ILOGGER_H
 
-#include <string>
+#ifndef LESSON_ITIMESOURCE_H
+#define LESSON_ITIMESOURCE_H
 
-namespace time_source {
-    class itime_source {
-    public:
-        virtual void getTimeStamp(const std::string& msg) const = 0;
+#include <string_view>
 
-        // Always provide a virtual destructor when a class has a virtual fucntion
-        virtual ~itime_source() = default;
+namespace lib
+{
+    class itime_source 
+    {
+        public:
+             virtual std::string_view output_time() const = 0;
+
+            virtual ~itime_source() = default;
     };
 }
-
 
 #endif //LESSON_ILOGGER_H

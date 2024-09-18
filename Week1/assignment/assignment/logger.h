@@ -7,7 +7,9 @@
 
 #include <string>
 #include <iostream>
+#include <memory>
 #include "ilogger.h"
+#include "itime_source.h"
 
 namespace lib{
 class logger: public loggers::ilogger {
@@ -17,7 +19,7 @@ class logger: public loggers::ilogger {
         void log(const std::string& msg) const override;
     private:
         std::ostream& m_out;
-        void output_time() const;
+        logger(std::unique_ptr<itime_source>)
     };
 }
 

@@ -3,7 +3,6 @@
 //
 
 #include "logger.h"
-#include <ctime>
 
 namespace lib{
 
@@ -15,13 +14,5 @@ namespace lib{
         m_out << '[';
         output_time();
         m_out << "]: " <<  msg << '\n';
-    }
-
-    void logger::output_time() const {
-        auto time_point = std::time(nullptr);
-        auto local_time = std::localtime(&time_point);
-        char buffer[16];
-        std::strftime(&buffer[0], sizeof(buffer),"%H:%M:%S", local_time);
-        m_out << buffer;
     }
 }
