@@ -6,15 +6,17 @@
 #include <iostream>
 #include <memory>
 #include "itime_source.h"
+#include "ilogger.h"
 
-namespace item_source{
-class system_time_source: public lib::itime_source {
-    public:
-        std::string_view output_time() const override;
-    private:
-        std::ostream& m_out;
-        std::unique_ptr<loggers::ilogger> m_logger;
+namespace time_source
+{
+    class system_time_source: public itime_source 
+    {
+        public:
+            std::string_view output_time() const override;
+        private:
+            std::unique_ptr<lib::ilogger> m_logger;
     };
 }
 
-#endif //LESSON_ILOGGER_H
+#endif //LESSON_SYSTEMTIMESOURCE_H

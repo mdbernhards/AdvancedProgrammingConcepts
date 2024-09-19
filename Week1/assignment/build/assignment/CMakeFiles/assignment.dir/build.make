@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /mnt/c/AdvProgConcepts/Week1/assignment
+CMAKE_SOURCE_DIR = "/mnt/c/Uni year 2/AdvancedProgrammingConcepts/Week1/assignment"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /mnt/c/AdvProgConcepts/Week1/assignment/build
+CMAKE_BINARY_DIR = "/mnt/c/Uni year 2/AdvancedProgrammingConcepts/Week1/assignment/build"
 
 # Include any dependencies generated for this target.
 include assignment/CMakeFiles/assignment.dir/depend.make
@@ -72,50 +72,95 @@ include assignment/CMakeFiles/assignment.dir/flags.make
 assignment/CMakeFiles/assignment.dir/program.cpp.o: assignment/CMakeFiles/assignment.dir/flags.make
 assignment/CMakeFiles/assignment.dir/program.cpp.o: ../assignment/program.cpp
 assignment/CMakeFiles/assignment.dir/program.cpp.o: assignment/CMakeFiles/assignment.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/AdvProgConcepts/Week1/assignment/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object assignment/CMakeFiles/assignment.dir/program.cpp.o"
-	cd /mnt/c/AdvProgConcepts/Week1/assignment/build/assignment && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT assignment/CMakeFiles/assignment.dir/program.cpp.o -MF CMakeFiles/assignment.dir/program.cpp.o.d -o CMakeFiles/assignment.dir/program.cpp.o -c /mnt/c/AdvProgConcepts/Week1/assignment/assignment/program.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/c/Uni year 2/AdvancedProgrammingConcepts/Week1/assignment/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object assignment/CMakeFiles/assignment.dir/program.cpp.o"
+	cd "/mnt/c/Uni year 2/AdvancedProgrammingConcepts/Week1/assignment/build/assignment" && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT assignment/CMakeFiles/assignment.dir/program.cpp.o -MF CMakeFiles/assignment.dir/program.cpp.o.d -o CMakeFiles/assignment.dir/program.cpp.o -c "/mnt/c/Uni year 2/AdvancedProgrammingConcepts/Week1/assignment/assignment/program.cpp"
 
 assignment/CMakeFiles/assignment.dir/program.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assignment.dir/program.cpp.i"
-	cd /mnt/c/AdvProgConcepts/Week1/assignment/build/assignment && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/AdvProgConcepts/Week1/assignment/assignment/program.cpp > CMakeFiles/assignment.dir/program.cpp.i
+	cd "/mnt/c/Uni year 2/AdvancedProgrammingConcepts/Week1/assignment/build/assignment" && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/c/Uni year 2/AdvancedProgrammingConcepts/Week1/assignment/assignment/program.cpp" > CMakeFiles/assignment.dir/program.cpp.i
 
 assignment/CMakeFiles/assignment.dir/program.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assignment.dir/program.cpp.s"
-	cd /mnt/c/AdvProgConcepts/Week1/assignment/build/assignment && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/AdvProgConcepts/Week1/assignment/assignment/program.cpp -o CMakeFiles/assignment.dir/program.cpp.s
+	cd "/mnt/c/Uni year 2/AdvancedProgrammingConcepts/Week1/assignment/build/assignment" && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/c/Uni year 2/AdvancedProgrammingConcepts/Week1/assignment/assignment/program.cpp" -o CMakeFiles/assignment.dir/program.cpp.s
 
 assignment/CMakeFiles/assignment.dir/logger.cpp.o: assignment/CMakeFiles/assignment.dir/flags.make
 assignment/CMakeFiles/assignment.dir/logger.cpp.o: ../assignment/logger.cpp
 assignment/CMakeFiles/assignment.dir/logger.cpp.o: assignment/CMakeFiles/assignment.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/AdvProgConcepts/Week1/assignment/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object assignment/CMakeFiles/assignment.dir/logger.cpp.o"
-	cd /mnt/c/AdvProgConcepts/Week1/assignment/build/assignment && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT assignment/CMakeFiles/assignment.dir/logger.cpp.o -MF CMakeFiles/assignment.dir/logger.cpp.o.d -o CMakeFiles/assignment.dir/logger.cpp.o -c /mnt/c/AdvProgConcepts/Week1/assignment/assignment/logger.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/c/Uni year 2/AdvancedProgrammingConcepts/Week1/assignment/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object assignment/CMakeFiles/assignment.dir/logger.cpp.o"
+	cd "/mnt/c/Uni year 2/AdvancedProgrammingConcepts/Week1/assignment/build/assignment" && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT assignment/CMakeFiles/assignment.dir/logger.cpp.o -MF CMakeFiles/assignment.dir/logger.cpp.o.d -o CMakeFiles/assignment.dir/logger.cpp.o -c "/mnt/c/Uni year 2/AdvancedProgrammingConcepts/Week1/assignment/assignment/logger.cpp"
 
 assignment/CMakeFiles/assignment.dir/logger.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assignment.dir/logger.cpp.i"
-	cd /mnt/c/AdvProgConcepts/Week1/assignment/build/assignment && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/AdvProgConcepts/Week1/assignment/assignment/logger.cpp > CMakeFiles/assignment.dir/logger.cpp.i
+	cd "/mnt/c/Uni year 2/AdvancedProgrammingConcepts/Week1/assignment/build/assignment" && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/c/Uni year 2/AdvancedProgrammingConcepts/Week1/assignment/assignment/logger.cpp" > CMakeFiles/assignment.dir/logger.cpp.i
 
 assignment/CMakeFiles/assignment.dir/logger.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assignment.dir/logger.cpp.s"
-	cd /mnt/c/AdvProgConcepts/Week1/assignment/build/assignment && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/AdvProgConcepts/Week1/assignment/assignment/logger.cpp -o CMakeFiles/assignment.dir/logger.cpp.s
+	cd "/mnt/c/Uni year 2/AdvancedProgrammingConcepts/Week1/assignment/build/assignment" && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/c/Uni year 2/AdvancedProgrammingConcepts/Week1/assignment/assignment/logger.cpp" -o CMakeFiles/assignment.dir/logger.cpp.s
 
 assignment/CMakeFiles/assignment.dir/main.cpp.o: assignment/CMakeFiles/assignment.dir/flags.make
 assignment/CMakeFiles/assignment.dir/main.cpp.o: ../assignment/main.cpp
 assignment/CMakeFiles/assignment.dir/main.cpp.o: assignment/CMakeFiles/assignment.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/AdvProgConcepts/Week1/assignment/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object assignment/CMakeFiles/assignment.dir/main.cpp.o"
-	cd /mnt/c/AdvProgConcepts/Week1/assignment/build/assignment && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT assignment/CMakeFiles/assignment.dir/main.cpp.o -MF CMakeFiles/assignment.dir/main.cpp.o.d -o CMakeFiles/assignment.dir/main.cpp.o -c /mnt/c/AdvProgConcepts/Week1/assignment/assignment/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/c/Uni year 2/AdvancedProgrammingConcepts/Week1/assignment/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object assignment/CMakeFiles/assignment.dir/main.cpp.o"
+	cd "/mnt/c/Uni year 2/AdvancedProgrammingConcepts/Week1/assignment/build/assignment" && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT assignment/CMakeFiles/assignment.dir/main.cpp.o -MF CMakeFiles/assignment.dir/main.cpp.o.d -o CMakeFiles/assignment.dir/main.cpp.o -c "/mnt/c/Uni year 2/AdvancedProgrammingConcepts/Week1/assignment/assignment/main.cpp"
 
 assignment/CMakeFiles/assignment.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assignment.dir/main.cpp.i"
-	cd /mnt/c/AdvProgConcepts/Week1/assignment/build/assignment && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/AdvProgConcepts/Week1/assignment/assignment/main.cpp > CMakeFiles/assignment.dir/main.cpp.i
+	cd "/mnt/c/Uni year 2/AdvancedProgrammingConcepts/Week1/assignment/build/assignment" && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/c/Uni year 2/AdvancedProgrammingConcepts/Week1/assignment/assignment/main.cpp" > CMakeFiles/assignment.dir/main.cpp.i
 
 assignment/CMakeFiles/assignment.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assignment.dir/main.cpp.s"
-	cd /mnt/c/AdvProgConcepts/Week1/assignment/build/assignment && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/AdvProgConcepts/Week1/assignment/assignment/main.cpp -o CMakeFiles/assignment.dir/main.cpp.s
+	cd "/mnt/c/Uni year 2/AdvancedProgrammingConcepts/Week1/assignment/build/assignment" && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/c/Uni year 2/AdvancedProgrammingConcepts/Week1/assignment/assignment/main.cpp" -o CMakeFiles/assignment.dir/main.cpp.s
+
+assignment/CMakeFiles/assignment.dir/console_writer.cpp.o: assignment/CMakeFiles/assignment.dir/flags.make
+assignment/CMakeFiles/assignment.dir/console_writer.cpp.o: ../assignment/console_writer.cpp
+assignment/CMakeFiles/assignment.dir/console_writer.cpp.o: assignment/CMakeFiles/assignment.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/c/Uni year 2/AdvancedProgrammingConcepts/Week1/assignment/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object assignment/CMakeFiles/assignment.dir/console_writer.cpp.o"
+	cd "/mnt/c/Uni year 2/AdvancedProgrammingConcepts/Week1/assignment/build/assignment" && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT assignment/CMakeFiles/assignment.dir/console_writer.cpp.o -MF CMakeFiles/assignment.dir/console_writer.cpp.o.d -o CMakeFiles/assignment.dir/console_writer.cpp.o -c "/mnt/c/Uni year 2/AdvancedProgrammingConcepts/Week1/assignment/assignment/console_writer.cpp"
+
+assignment/CMakeFiles/assignment.dir/console_writer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assignment.dir/console_writer.cpp.i"
+	cd "/mnt/c/Uni year 2/AdvancedProgrammingConcepts/Week1/assignment/build/assignment" && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/c/Uni year 2/AdvancedProgrammingConcepts/Week1/assignment/assignment/console_writer.cpp" > CMakeFiles/assignment.dir/console_writer.cpp.i
+
+assignment/CMakeFiles/assignment.dir/console_writer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assignment.dir/console_writer.cpp.s"
+	cd "/mnt/c/Uni year 2/AdvancedProgrammingConcepts/Week1/assignment/build/assignment" && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/c/Uni year 2/AdvancedProgrammingConcepts/Week1/assignment/assignment/console_writer.cpp" -o CMakeFiles/assignment.dir/console_writer.cpp.s
+
+assignment/CMakeFiles/assignment.dir/stream_writer.cpp.o: assignment/CMakeFiles/assignment.dir/flags.make
+assignment/CMakeFiles/assignment.dir/stream_writer.cpp.o: ../assignment/stream_writer.cpp
+assignment/CMakeFiles/assignment.dir/stream_writer.cpp.o: assignment/CMakeFiles/assignment.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/c/Uni year 2/AdvancedProgrammingConcepts/Week1/assignment/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object assignment/CMakeFiles/assignment.dir/stream_writer.cpp.o"
+	cd "/mnt/c/Uni year 2/AdvancedProgrammingConcepts/Week1/assignment/build/assignment" && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT assignment/CMakeFiles/assignment.dir/stream_writer.cpp.o -MF CMakeFiles/assignment.dir/stream_writer.cpp.o.d -o CMakeFiles/assignment.dir/stream_writer.cpp.o -c "/mnt/c/Uni year 2/AdvancedProgrammingConcepts/Week1/assignment/assignment/stream_writer.cpp"
+
+assignment/CMakeFiles/assignment.dir/stream_writer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assignment.dir/stream_writer.cpp.i"
+	cd "/mnt/c/Uni year 2/AdvancedProgrammingConcepts/Week1/assignment/build/assignment" && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/c/Uni year 2/AdvancedProgrammingConcepts/Week1/assignment/assignment/stream_writer.cpp" > CMakeFiles/assignment.dir/stream_writer.cpp.i
+
+assignment/CMakeFiles/assignment.dir/stream_writer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assignment.dir/stream_writer.cpp.s"
+	cd "/mnt/c/Uni year 2/AdvancedProgrammingConcepts/Week1/assignment/build/assignment" && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/c/Uni year 2/AdvancedProgrammingConcepts/Week1/assignment/assignment/stream_writer.cpp" -o CMakeFiles/assignment.dir/stream_writer.cpp.s
+
+assignment/CMakeFiles/assignment.dir/system_time_source.cpp.o: assignment/CMakeFiles/assignment.dir/flags.make
+assignment/CMakeFiles/assignment.dir/system_time_source.cpp.o: ../assignment/system_time_source.cpp
+assignment/CMakeFiles/assignment.dir/system_time_source.cpp.o: assignment/CMakeFiles/assignment.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/c/Uni year 2/AdvancedProgrammingConcepts/Week1/assignment/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object assignment/CMakeFiles/assignment.dir/system_time_source.cpp.o"
+	cd "/mnt/c/Uni year 2/AdvancedProgrammingConcepts/Week1/assignment/build/assignment" && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT assignment/CMakeFiles/assignment.dir/system_time_source.cpp.o -MF CMakeFiles/assignment.dir/system_time_source.cpp.o.d -o CMakeFiles/assignment.dir/system_time_source.cpp.o -c "/mnt/c/Uni year 2/AdvancedProgrammingConcepts/Week1/assignment/assignment/system_time_source.cpp"
+
+assignment/CMakeFiles/assignment.dir/system_time_source.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assignment.dir/system_time_source.cpp.i"
+	cd "/mnt/c/Uni year 2/AdvancedProgrammingConcepts/Week1/assignment/build/assignment" && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/c/Uni year 2/AdvancedProgrammingConcepts/Week1/assignment/assignment/system_time_source.cpp" > CMakeFiles/assignment.dir/system_time_source.cpp.i
+
+assignment/CMakeFiles/assignment.dir/system_time_source.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assignment.dir/system_time_source.cpp.s"
+	cd "/mnt/c/Uni year 2/AdvancedProgrammingConcepts/Week1/assignment/build/assignment" && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/c/Uni year 2/AdvancedProgrammingConcepts/Week1/assignment/assignment/system_time_source.cpp" -o CMakeFiles/assignment.dir/system_time_source.cpp.s
 
 # Object files for target assignment
 assignment_OBJECTS = \
 "CMakeFiles/assignment.dir/program.cpp.o" \
 "CMakeFiles/assignment.dir/logger.cpp.o" \
-"CMakeFiles/assignment.dir/main.cpp.o"
+"CMakeFiles/assignment.dir/main.cpp.o" \
+"CMakeFiles/assignment.dir/console_writer.cpp.o" \
+"CMakeFiles/assignment.dir/stream_writer.cpp.o" \
+"CMakeFiles/assignment.dir/system_time_source.cpp.o"
 
 # External object files for target assignment
 assignment_EXTERNAL_OBJECTS =
@@ -123,20 +168,23 @@ assignment_EXTERNAL_OBJECTS =
 assignment/assignment: assignment/CMakeFiles/assignment.dir/program.cpp.o
 assignment/assignment: assignment/CMakeFiles/assignment.dir/logger.cpp.o
 assignment/assignment: assignment/CMakeFiles/assignment.dir/main.cpp.o
+assignment/assignment: assignment/CMakeFiles/assignment.dir/console_writer.cpp.o
+assignment/assignment: assignment/CMakeFiles/assignment.dir/stream_writer.cpp.o
+assignment/assignment: assignment/CMakeFiles/assignment.dir/system_time_source.cpp.o
 assignment/assignment: assignment/CMakeFiles/assignment.dir/build.make
 assignment/assignment: assignment/CMakeFiles/assignment.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/c/AdvProgConcepts/Week1/assignment/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable assignment"
-	cd /mnt/c/AdvProgConcepts/Week1/assignment/build/assignment && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/assignment.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/mnt/c/Uni year 2/AdvancedProgrammingConcepts/Week1/assignment/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable assignment"
+	cd "/mnt/c/Uni year 2/AdvancedProgrammingConcepts/Week1/assignment/build/assignment" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/assignment.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 assignment/CMakeFiles/assignment.dir/build: assignment/assignment
 .PHONY : assignment/CMakeFiles/assignment.dir/build
 
 assignment/CMakeFiles/assignment.dir/clean:
-	cd /mnt/c/AdvProgConcepts/Week1/assignment/build/assignment && $(CMAKE_COMMAND) -P CMakeFiles/assignment.dir/cmake_clean.cmake
+	cd "/mnt/c/Uni year 2/AdvancedProgrammingConcepts/Week1/assignment/build/assignment" && $(CMAKE_COMMAND) -P CMakeFiles/assignment.dir/cmake_clean.cmake
 .PHONY : assignment/CMakeFiles/assignment.dir/clean
 
 assignment/CMakeFiles/assignment.dir/depend:
-	cd /mnt/c/AdvProgConcepts/Week1/assignment/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/c/AdvProgConcepts/Week1/assignment /mnt/c/AdvProgConcepts/Week1/assignment/assignment /mnt/c/AdvProgConcepts/Week1/assignment/build /mnt/c/AdvProgConcepts/Week1/assignment/build/assignment /mnt/c/AdvProgConcepts/Week1/assignment/build/assignment/CMakeFiles/assignment.dir/DependInfo.cmake --color=$(COLOR)
+	cd "/mnt/c/Uni year 2/AdvancedProgrammingConcepts/Week1/assignment/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/mnt/c/Uni year 2/AdvancedProgrammingConcepts/Week1/assignment" "/mnt/c/Uni year 2/AdvancedProgrammingConcepts/Week1/assignment/assignment" "/mnt/c/Uni year 2/AdvancedProgrammingConcepts/Week1/assignment/build" "/mnt/c/Uni year 2/AdvancedProgrammingConcepts/Week1/assignment/build/assignment" "/mnt/c/Uni year 2/AdvancedProgrammingConcepts/Week1/assignment/build/assignment/CMakeFiles/assignment.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : assignment/CMakeFiles/assignment.dir/depend
 

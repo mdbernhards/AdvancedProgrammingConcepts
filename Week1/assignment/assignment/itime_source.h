@@ -4,13 +4,12 @@
 
 #include <string_view>
 
-namespace lib
+namespace time_source
 {
     class itime_source 
     {
         public:
-             virtual std::string_view output_time() const = 0;
-
+            virtual std::string_view output_time() const = 0;
             virtual ~itime_source() = default;
     };
 }

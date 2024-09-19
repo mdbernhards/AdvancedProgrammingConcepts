@@ -55,7 +55,7 @@
 				{
 					"directoryIndex" : 1,
 					"id" : "assignment::@d3dc7602a705f850d9f3",
-					"jsonFile" : "target-assignment-Debug-d81af8608b098e197925.json",
+					"jsonFile" : "target-assignment-Debug-b00c6550d75ea446f7b1.json",
 					"name" : "assignment",
 					"projectIndex" : 0
 				}
@@ -65,8 +65,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/mnt/c/AdvProgConcepts/Week1/assignment/build",
-		"source" : "/mnt/c/AdvProgConcepts/Week1/assignment"
+		"build" : "/mnt/c/Uni year 2/AdvancedProgrammingConcepts/Week1/assignment/build",
+		"source" : "/mnt/c/Uni year 2/AdvancedProgrammingConcepts/Week1/assignment"
 	},
 	"version" : 
 	{

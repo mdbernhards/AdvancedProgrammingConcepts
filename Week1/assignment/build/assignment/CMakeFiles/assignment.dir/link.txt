@@ -1,1 +1,1 @@
-/usr/bin/g++ -g -fsanitize=address CMakeFiles/assignment.dir/program.cpp.o CMakeFiles/assignment.dir/logger.cpp.o CMakeFiles/assignment.dir/main.cpp.o -o assignment 
+/usr/bin/g++ -g -fsanitize=address CMakeFiles/assignment.dir/program.cpp.o CMakeFiles/assignment.dir/logger.cpp.o CMakeFiles/assignment.dir/main.cpp.o CMakeFiles/assignment.dir/console_writer.cpp.o CMakeFiles/assignment.dir/stream_writer.cpp.o CMakeFiles/assignment.dir/system_time_source.cpp.o -o assignment 

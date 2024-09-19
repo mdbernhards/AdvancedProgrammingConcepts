@@ -10,13 +10,13 @@
 
 class program {
 public:
-    explicit program(std::unique_ptr<loggers::ilogger> some_logger) noexcept;
+    explicit program(std::unique_ptr<lib::ilogger> some_logger) noexcept;
     ~program() noexcept;
 
-    void set_logger(std::unique_ptr<loggers::ilogger> some_logger) noexcept;
+    void set_logger(std::unique_ptr<lib::ilogger> some_logger) noexcept;
     void run();
 private:
-    std::unique_ptr<loggers::ilogger> m_logger;
+    std::unique_ptr<lib::ilogger> m_logger;
 };
 
 #endif //ADVANCED_PROGRAMMING_CONCEPTS_1_PROGRAM_H

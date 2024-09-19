@@ -1,4 +1,4 @@
-# Install script for directory: /mnt/c/AdvProgConcepts/Week1/assignment/assignment
+# Install script for directory: /mnt/c/Uni year 2/AdvancedProgrammingConcepts/Week1/assignment/assignment
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

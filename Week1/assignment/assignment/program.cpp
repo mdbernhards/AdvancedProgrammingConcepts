@@ -5,18 +5,19 @@
 #include "program.h"
 #include <string>
 
-
-program::program(std::unique_ptr<loggers::ilogger> some_logger) noexcept:
+program::program(std::unique_ptr<lib::ilogger> some_logger) noexcept:
     m_logger{ std::move(some_logger) }
 {
     m_logger->log("Starting");
 }
 
-void program::set_logger(std::unique_ptr<loggers::ilogger> some_logger) noexcept {
+void program::set_logger(std::unique_ptr<lib::ilogger> some_logger) noexcept 
+{
     m_logger = std::move(some_logger);
 }
 
-void program::run(){
+void program::run()
+{
     using namespace std::literals;
 
     auto n{1};
@@ -25,8 +26,7 @@ void program::run(){
     }
 }
 
-program::~program() noexcept {
+program::~program() noexcept 
+{
     m_logger->log("Quitting");
 }
-
-

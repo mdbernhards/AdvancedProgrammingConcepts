@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /mnt/c/AdvProgConcepts/Week1/assignment
+CMAKE_SOURCE_DIR = "/mnt/c/Uni year 2/AdvancedProgrammingConcepts/Week1/assignment"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /mnt/c/AdvProgConcepts/Week1/assignment/build
+CMAKE_BINARY_DIR = "/mnt/c/Uni year 2/AdvancedProgrammingConcepts/Week1/assignment/build"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /mnt/c/AdvProgConcepts/Week1/assignment/build && $(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/AdvProgConcepts/Week1/assignment/build/CMakeFiles /mnt/c/AdvProgConcepts/Week1/assignment/build/assignment//CMakeFiles/progress.marks
-	cd /mnt/c/AdvProgConcepts/Week1/assignment/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 assignment/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/AdvProgConcepts/Week1/assignment/build/CMakeFiles 0
+	cd "/mnt/c/Uni year 2/AdvancedProgrammingConcepts/Week1/assignment/build" && $(CMAKE_COMMAND) -E cmake_progress_start "/mnt/c/Uni year 2/AdvancedProgrammingConcepts/Week1/assignment/build/CMakeFiles" "/mnt/c/Uni year 2/AdvancedProgrammingConcepts/Week1/assignment/build/assignment//CMakeFiles/progress.marks"
+	cd "/mnt/c/Uni year 2/AdvancedProgrammingConcepts/Week1/assignment/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 assignment/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/mnt/c/Uni year 2/AdvancedProgrammingConcepts/Week1/assignment/build/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /mnt/c/AdvProgConcepts/Week1/assignment/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 assignment/clean
+	cd "/mnt/c/Uni year 2/AdvancedProgrammingConcepts/Week1/assignment/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 assignment/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /mnt/c/AdvProgConcepts/Week1/assignment/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 assignment/preinstall
+	cd "/mnt/c/Uni year 2/AdvancedProgrammingConcepts/Week1/assignment/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 assignment/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /mnt/c/AdvProgConcepts/Week1/assignment/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 assignment/preinstall
+	cd "/mnt/c/Uni year 2/AdvancedProgrammingConcepts/Week1/assignment/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 assignment/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /mnt/c/AdvProgConcepts/Week1/assignment/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd "/mnt/c/Uni year 2/AdvancedProgrammingConcepts/Week1/assignment/build" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 assignment/CMakeFiles/assignment.dir/rule:
-	cd /mnt/c/AdvProgConcepts/Week1/assignment/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 assignment/CMakeFiles/assignment.dir/rule
+	cd "/mnt/c/Uni year 2/AdvancedProgrammingConcepts/Week1/assignment/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 assignment/CMakeFiles/assignment.dir/rule
 .PHONY : assignment/CMakeFiles/assignment.dir/rule
 
 # Convenience name for target.
@@ -127,15 +127,39 @@ assignment: assignment/CMakeFiles/assignment.dir/rule
 
 # fast build rule for target.
 assignment/fast:
-	cd /mnt/c/AdvProgConcepts/Week1/assignment/build && $(MAKE) $(MAKESILENT) -f assignment/CMakeFiles/assignment.dir/build.make assignment/CMakeFiles/assignment.dir/build
+	cd "/mnt/c/Uni year 2/AdvancedProgrammingConcepts/Week1/assignment/build" && $(MAKE) $(MAKESILENT) -f assignment/CMakeFiles/assignment.dir/build.make assignment/CMakeFiles/assignment.dir/build
 .PHONY : assignment/fast
+
+console_writer.o: console_writer.cpp.o
+.PHONY : console_writer.o
+
+# target to build an object file
+console_writer.cpp.o:
+	cd "/mnt/c/Uni year 2/AdvancedProgrammingConcepts/Week1/assignment/build" && $(MAKE) $(MAKESILENT) -f assignment/CMakeFiles/assignment.dir/build.make assignment/CMakeFiles/assignment.dir/console_writer.cpp.o
+.PHONY : console_writer.cpp.o
+
+console_writer.i: console_writer.cpp.i
+.PHONY : console_writer.i
+
+# target to preprocess a source file
+console_writer.cpp.i:
+	cd "/mnt/c/Uni year 2/AdvancedProgrammingConcepts/Week1/assignment/build" && $(MAKE) $(MAKESILENT) -f assignment/CMakeFiles/assignment.dir/build.make assignment/CMakeFiles/assignment.dir/console_writer.cpp.i
+.PHONY : console_writer.cpp.i
+
+console_writer.s: console_writer.cpp.s
+.PHONY : console_writer.s
+
+# target to generate assembly for a file
+console_writer.cpp.s:
+	cd "/mnt/c/Uni year 2/AdvancedProgrammingConcepts/Week1/assignment/build" && $(MAKE) $(MAKESILENT) -f assignment/CMakeFiles/assignment.dir/build.make assignment/CMakeFiles/assignment.dir/console_writer.cpp.s
+.PHONY : console_writer.cpp.s
 
 logger.o: logger.cpp.o
 .PHONY : logger.o
 
 # target to build an object file
 logger.cpp.o:
-	cd /mnt/c/AdvProgConcepts/Week1/assignment/build && $(MAKE) $(MAKESILENT) -f assignment/CMakeFiles/assignment.dir/build.make assignment/CMakeFiles/assignment.dir/logger.cpp.o
+	cd "/mnt/c/Uni year 2/AdvancedProgrammingConcepts/Week1/assignment/build" && $(MAKE) $(MAKESILENT) -f assignment/CMakeFiles/assignment.dir/build.make assignment/CMakeFiles/assignment.dir/logger.cpp.o
 .PHONY : logger.cpp.o
 
 logger.i: logger.cpp.i
@@ -143,7 +167,7 @@ logger.i: logger.cpp.i
 
 # target to preprocess a source file
 logger.cpp.i:
-	cd /mnt/c/AdvProgConcepts/Week1/assignment/build && $(MAKE) $(MAKESILENT) -f assignment/CMakeFiles/assignment.dir/build.make assignment/CMakeFiles/assignment.dir/logger.cpp.i
+	cd "/mnt/c/Uni year 2/AdvancedProgrammingConcepts/Week1/assignment/build" && $(MAKE) $(MAKESILENT) -f assignment/CMakeFiles/assignment.dir/build.make assignment/CMakeFiles/assignment.dir/logger.cpp.i
 .PHONY : logger.cpp.i
 
 logger.s: logger.cpp.s
@@ -151,7 +175,7 @@ logger.s: logger.cpp.s
 
 # target to generate assembly for a file
 logger.cpp.s:
-	cd /mnt/c/AdvProgConcepts/Week1/assignment/build && $(MAKE) $(MAKESILENT) -f assignment/CMakeFiles/assignment.dir/build.make assignment/CMakeFiles/assignment.dir/logger.cpp.s
+	cd "/mnt/c/Uni year 2/AdvancedProgrammingConcepts/Week1/assignment/build" && $(MAKE) $(MAKESILENT) -f assignment/CMakeFiles/assignment.dir/build.make assignment/CMakeFiles/assignment.dir/logger.cpp.s
 .PHONY : logger.cpp.s
 
 main.o: main.cpp.o
@@ -159,7 +183,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	cd /mnt/c/AdvProgConcepts/Week1/assignment/build && $(MAKE) $(MAKESILENT) -f assignment/CMakeFiles/assignment.dir/build.make assignment/CMakeFiles/assignment.dir/main.cpp.o
+	cd "/mnt/c/Uni year 2/AdvancedProgrammingConcepts/Week1/assignment/build" && $(MAKE) $(MAKESILENT) -f assignment/CMakeFiles/assignment.dir/build.make assignment/CMakeFiles/assignment.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -167,7 +191,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	cd /mnt/c/AdvProgConcepts/Week1/assignment/build && $(MAKE) $(MAKESILENT) -f assignment/CMakeFiles/assignment.dir/build.make assignment/CMakeFiles/assignment.dir/main.cpp.i
+	cd "/mnt/c/Uni year 2/AdvancedProgrammingConcepts/Week1/assignment/build" && $(MAKE) $(MAKESILENT) -f assignment/CMakeFiles/assignment.dir/build.make assignment/CMakeFiles/assignment.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -175,7 +199,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	cd /mnt/c/AdvProgConcepts/Week1/assignment/build && $(MAKE) $(MAKESILENT) -f assignment/CMakeFiles/assignment.dir/build.make assignment/CMakeFiles/assignment.dir/main.cpp.s
+	cd "/mnt/c/Uni year 2/AdvancedProgrammingConcepts/Week1/assignment/build" && $(MAKE) $(MAKESILENT) -f assignment/CMakeFiles/assignment.dir/build.make assignment/CMakeFiles/assignment.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 program.o: program.cpp.o
@@ -183,7 +207,7 @@ program.o: program.cpp.o
 
 # target to build an object file
 program.cpp.o:
-	cd /mnt/c/AdvProgConcepts/Week1/assignment/build && $(MAKE) $(MAKESILENT) -f assignment/CMakeFiles/assignment.dir/build.make assignment/CMakeFiles/assignment.dir/program.cpp.o
+	cd "/mnt/c/Uni year 2/AdvancedProgrammingConcepts/Week1/assignment/build" && $(MAKE) $(MAKESILENT) -f assignment/CMakeFiles/assignment.dir/build.make assignment/CMakeFiles/assignment.dir/program.cpp.o
 .PHONY : program.cpp.o
 
 program.i: program.cpp.i
@@ -191,7 +215,7 @@ program.i: program.cpp.i
 
 # target to preprocess a source file
 program.cpp.i:
-	cd /mnt/c/AdvProgConcepts/Week1/assignment/build && $(MAKE) $(MAKESILENT) -f assignment/CMakeFiles/assignment.dir/build.make assignment/CMakeFiles/assignment.dir/program.cpp.i
+	cd "/mnt/c/Uni year 2/AdvancedProgrammingConcepts/Week1/assignment/build" && $(MAKE) $(MAKESILENT) -f assignment/CMakeFiles/assignment.dir/build.make assignment/CMakeFiles/assignment.dir/program.cpp.i
 .PHONY : program.cpp.i
 
 program.s: program.cpp.s
@@ -199,8 +223,56 @@ program.s: program.cpp.s
 
 # target to generate assembly for a file
 program.cpp.s:
-	cd /mnt/c/AdvProgConcepts/Week1/assignment/build && $(MAKE) $(MAKESILENT) -f assignment/CMakeFiles/assignment.dir/build.make assignment/CMakeFiles/assignment.dir/program.cpp.s
+	cd "/mnt/c/Uni year 2/AdvancedProgrammingConcepts/Week1/assignment/build" && $(MAKE) $(MAKESILENT) -f assignment/CMakeFiles/assignment.dir/build.make assignment/CMakeFiles/assignment.dir/program.cpp.s
 .PHONY : program.cpp.s
+
+stream_writer.o: stream_writer.cpp.o
+.PHONY : stream_writer.o
+
+# target to build an object file
+stream_writer.cpp.o:
+	cd "/mnt/c/Uni year 2/AdvancedProgrammingConcepts/Week1/assignment/build" && $(MAKE) $(MAKESILENT) -f assignment/CMakeFiles/assignment.dir/build.make assignment/CMakeFiles/assignment.dir/stream_writer.cpp.o
+.PHONY : stream_writer.cpp.o
+
+stream_writer.i: stream_writer.cpp.i
+.PHONY : stream_writer.i
+
+# target to preprocess a source file
+stream_writer.cpp.i:
+	cd "/mnt/c/Uni year 2/AdvancedProgrammingConcepts/Week1/assignment/build" && $(MAKE) $(MAKESILENT) -f assignment/CMakeFiles/assignment.dir/build.make assignment/CMakeFiles/assignment.dir/stream_writer.cpp.i
+.PHONY : stream_writer.cpp.i
+
+stream_writer.s: stream_writer.cpp.s
+.PHONY : stream_writer.s
+
+# target to generate assembly for a file
+stream_writer.cpp.s:
+	cd "/mnt/c/Uni year 2/AdvancedProgrammingConcepts/Week1/assignment/build" && $(MAKE) $(MAKESILENT) -f assignment/CMakeFiles/assignment.dir/build.make assignment/CMakeFiles/assignment.dir/stream_writer.cpp.s
+.PHONY : stream_writer.cpp.s
+
+system_time_source.o: system_time_source.cpp.o
+.PHONY : system_time_source.o
+
+# target to build an object file
+system_time_source.cpp.o:
+	cd "/mnt/c/Uni year 2/AdvancedProgrammingConcepts/Week1/assignment/build" && $(MAKE) $(MAKESILENT) -f assignment/CMakeFiles/assignment.dir/build.make assignment/CMakeFiles/assignment.dir/system_time_source.cpp.o
+.PHONY : system_time_source.cpp.o
+
+system_time_source.i: system_time_source.cpp.i
+.PHONY : system_time_source.i
+
+# target to preprocess a source file
+system_time_source.cpp.i:
+	cd "/mnt/c/Uni year 2/AdvancedProgrammingConcepts/Week1/assignment/build" && $(MAKE) $(MAKESILENT) -f assignment/CMakeFiles/assignment.dir/build.make assignment/CMakeFiles/assignment.dir/system_time_source.cpp.i
+.PHONY : system_time_source.cpp.i
+
+system_time_source.s: system_time_source.cpp.s
+.PHONY : system_time_source.s
+
+# target to generate assembly for a file
+system_time_source.cpp.s:
+	cd "/mnt/c/Uni year 2/AdvancedProgrammingConcepts/Week1/assignment/build" && $(MAKE) $(MAKESILENT) -f assignment/CMakeFiles/assignment.dir/build.make assignment/CMakeFiles/assignment.dir/system_time_source.cpp.s
+.PHONY : system_time_source.cpp.s
 
 # Help Target
 help:
@@ -211,6 +283,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... assignment"
+	@echo "... console_writer.o"
+	@echo "... console_writer.i"
+	@echo "... console_writer.s"
 	@echo "... logger.o"
 	@echo "... logger.i"
 	@echo "... logger.s"
@@ -220,6 +295,12 @@ help:
 	@echo "... program.o"
 	@echo "... program.i"
 	@echo "... program.s"
+	@echo "... stream_writer.o"
+	@echo "... stream_writer.i"
+	@echo "... stream_writer.s"
+	@echo "... system_time_source.o"
+	@echo "... system_time_source.i"
+	@echo "... system_time_source.s"
 .PHONY : help
 
 
@@ -231,6 +312,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /mnt/c/AdvProgConcepts/Week1/assignment/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd "/mnt/c/Uni year 2/AdvancedProgrammingConcepts/Week1/assignment/build" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 
