@@ -1,0 +1,52 @@
+[
+{
+  "directory": "/mnt/c/Uni year 2/AdvancedProgrammingConcepts/Week2/assignment/build/assignment",
+  "command": "/usr/bin/g++  -I\"/mnt/c/Uni year 2/AdvancedProgrammingConcepts/Week2/assignment/assignment/include\" -I\"/mnt/c/Uni year 2/AdvancedProgrammingConcepts/Week2/assignment/assignment/clib\" -g -Wall -Wextra -Wpedantic -Werror -fno-omit-frame-pointer -Og -g -fsanitize=address -std=c++20 -o CMakeFiles/assignment.dir/main.cpp.o -c \"/mnt/c/Uni year 2/AdvancedProgrammingConcepts/Week2/assignment/assignment/main.cpp\"",
+  "file": "/mnt/c/Uni year 2/AdvancedProgrammingConcepts/Week2/assignment/assignment/main.cpp"
+},
+{
+  "directory": "/mnt/c/Uni year 2/AdvancedProgrammingConcepts/Week2/assignment/build/assignment",
+  "command": "/usr/bin/g++  -I\"/mnt/c/Uni year 2/AdvancedProgrammingConcepts/Week2/assignment/assignment/include\" -I\"/mnt/c/Uni year 2/AdvancedProgrammingConcepts/Week2/assignment/assignment/clib\" -g -Wall -Wextra -Wpedantic -Werror -fno-omit-frame-pointer -Og -g -fsanitize=address -std=c++20 -o CMakeFiles/assignment.dir/src/console_writer.cpp.o -c \"/mnt/c/Uni year 2/AdvancedProgrammingConcepts/Week2/assignment/assignment/src/console_writer.cpp\"",
+  "file": "/mnt/c/Uni year 2/AdvancedProgrammingConcepts/Week2/assignment/assignment/src/console_writer.cpp"
+},
+{
+  "directory": "/mnt/c/Uni year 2/AdvancedProgrammingConcepts/Week2/assignment/build/assignment",
+  "command": "/usr/bin/g++  -I\"/mnt/c/Uni year 2/AdvancedProgrammingConcepts/Week2/assignment/assignment/include\" -I\"/mnt/c/Uni year 2/AdvancedProgrammingConcepts/Week2/assignment/assignment/clib\" -g -Wall -Wextra -Wpedantic -Werror -fno-omit-frame-pointer -Og -g -fsanitize=address -std=c++20 -o CMakeFiles/assignment.dir/src/file_writer_adapter.cpp.o -c \"/mnt/c/Uni year 2/AdvancedProgrammingConcepts/Week2/assignment/assignment/src/file_writer_adapter.cpp\"",
+  "file": "/mnt/c/Uni year 2/AdvancedProgrammingConcepts/Week2/assignment/assignment/src/file_writer_adapter.cpp"
+},
+{
+  "directory": "/mnt/c/Uni year 2/AdvancedProgrammingConcepts/Week2/assignment/build/assignment",
+  "command": "/usr/bin/g++  -I\"/mnt/c/Uni year 2/AdvancedProgrammingConcepts/Week2/assignment/assignment/include\" -I\"/mnt/c/Uni year 2/AdvancedProgrammingConcepts/Week2/assignment/assignment/clib\" -g -Wall -Wextra -Wpedantic -Werror -fno-omit-frame-pointer -Og -g -fsanitize=address -std=c++20 -o CMakeFiles/assignment.dir/src/logger.cpp.o -c \"/mnt/c/Uni year 2/AdvancedProgrammingConcepts/Week2/assignment/assignment/src/logger.cpp\"",
+  "file": "/mnt/c/Uni year 2/AdvancedProgrammingConcepts/Week2/assignment/assignment/src/logger.cpp"
+},
+{
+  "directory": "/mnt/c/Uni year 2/AdvancedProgrammingConcepts/Week2/assignment/build/assignment",
+  "command": "/usr/bin/g++  -I\"/mnt/c/Uni year 2/AdvancedProgrammingConcepts/Week2/assignment/assignment/include\" -I\"/mnt/c/Uni year 2/AdvancedProgrammingConcepts/Week2/assignment/assignment/clib\" -g -Wall -Wextra -Wpedantic -Werror -fno-omit-frame-pointer -Og -g -fsanitize=address -std=c++20 -o CMakeFiles/assignment.dir/src/multi_writer.cpp.o -c \"/mnt/c/Uni year 2/AdvancedProgrammingConcepts/Week2/assignment/assignment/src/multi_writer.cpp\"",
+  "file": "/mnt/c/Uni year 2/AdvancedProgrammingConcepts/Week2/assignment/assignment/src/multi_writer.cpp"
+},
+{
+  "directory": "/mnt/c/Uni year 2/AdvancedProgrammingConcepts/Week2/assignment/build/assignment",
+  "command": "/usr/bin/g++  -I\"/mnt/c/Uni year 2/AdvancedProgrammingConcepts/Week2/assignment/assignment/include\" -I\"/mnt/c/Uni year 2/AdvancedProgrammingConcepts/Week2/assignment/assignment/clib\" -g -Wall -Wextra -Wpedantic -Werror -fno-omit-frame-pointer -Og -g -fsanitize=address -std=c++20 -o CMakeFiles/assignment.dir/src/stream_writer.cpp.o -c \"/mnt/c/Uni year 2/AdvancedProgrammingConcepts/Week2/assignment/assignment/src/stream_writer.cpp\"",
+  "file": "/mnt/c/Uni year 2/AdvancedProgrammingConcepts/Week2/assignment/assignment/src/stream_writer.cpp"
+},
+{
+  "directory": "/mnt/c/Uni year 2/AdvancedProgrammingConcepts/Week2/assignment/build/assignment",
+  "command": "/usr/bin/g++  -I\"/mnt/c/Uni year 2/AdvancedProgrammingConcepts/Week2/assignment/assignment/include\" -I\"/mnt/c/Uni year 2/AdvancedProgrammingConcepts/Week2/assignment/assignment/clib\" -g -Wall -Wextra -Wpedantic -Werror -fno-omit-frame-pointer -Og -g -fsanitize=address -std=c++20 -o CMakeFiles/assignment.dir/src/decorators/timestamp_decorator.cpp.o -c \"/mnt/c/Uni year 2/AdvancedProgrammingConcepts/Week2/assignment/assignment/src/decorators/timestamp_decorator.cpp\"",
+  "file": "/mnt/c/Uni year 2/AdvancedProgrammingConcepts/Week2/assignment/assignment/src/decorators/timestamp_decorator.cpp"
+},
+{
+  "directory": "/mnt/c/Uni year 2/AdvancedProgrammingConcepts/Week2/assignment/build/assignment",
+  "command": "/usr/bin/g++  -I\"/mnt/c/Uni year 2/AdvancedProgrammingConcepts/Week2/assignment/assignment/include\" -I\"/mnt/c/Uni year 2/AdvancedProgrammingConcepts/Week2/assignment/assignment/clib\" -g -Wall -Wextra -Wpedantic -Werror -fno-omit-frame-pointer -Og -g -fsanitize=address -std=c++20 -o CMakeFiles/assignment.dir/program.cpp.o -c \"/mnt/c/Uni year 2/AdvancedProgrammingConcepts/Week2/assignment/assignment/program.cpp\"",
+  "file": "/mnt/c/Uni year 2/AdvancedProgrammingConcepts/Week2/assignment/assignment/program.cpp"
+},
+{
+  "directory": "/mnt/c/Uni year 2/AdvancedProgrammingConcepts/Week2/assignment/build/assignment/clib",
+  "command": "/usr/bin/g++   -g -Wall -Wextra -pedantic -fno-omit-frame-pointer -o CMakeFiles/clogger.dir/file_writer.cpp.o -c \"/mnt/c/Uni year 2/AdvancedProgrammingConcepts/Week2/assignment/assignment/clib/file_writer.cpp\"",
+  "file": "/mnt/c/Uni year 2/AdvancedProgrammingConcepts/Week2/assignment/assignment/clib/file_writer.cpp"
+},
+{
+  "directory": "/mnt/c/Uni year 2/AdvancedProgrammingConcepts/Week2/assignment/build/assignment/clib",
+  "command": "/usr/bin/gcc   -g -Wall -Wextra -pedantic -fno-omit-frame-pointer -o CMakeFiles/clogger.dir/logger.c.o -c \"/mnt/c/Uni year 2/AdvancedProgrammingConcepts/Week2/assignment/assignment/clib/logger.c\"",
+  "file": "/mnt/c/Uni year 2/AdvancedProgrammingConcepts/Week2/assignment/assignment/clib/logger.c"
+}
+]
