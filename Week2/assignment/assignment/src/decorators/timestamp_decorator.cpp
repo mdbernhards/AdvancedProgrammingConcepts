@@ -9,7 +9,8 @@
 
 static const char* TIME_FMT = "%H:%M:%S";
 
-void lib::decorators::timestamp_decorator::log(std::string_view msg) const {
+void lib::decorators::timestamp_decorator::log(std::string_view msg) const 
+{
 
     std::ostringstream oss;
 
@@ -19,11 +20,5 @@ void lib::decorators::timestamp_decorator::log(std::string_view msg) const {
     oss << '[' << std::put_time(local_time, TIME_FMT) << "] " << msg;
     auto str = oss.str();
 
-    m_inner->log(str);
-}
-
-lib::decorators::timestamp_decorator::timestamp_decorator(std::unique_ptr<loggers::ilogger> inner) noexcept:
-    m_inner{ std::move(inner) }
-{
-
+    decorator::log(str);
 }
