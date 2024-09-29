@@ -1,4 +1,3 @@
-
 #ifndef LESSON_ITIMESOURCE_H
 #define LESSON_ITIMESOURCE_H
 

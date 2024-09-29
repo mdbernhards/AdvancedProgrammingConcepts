@@ -1,7 +1,0 @@
-[15:40:37] Starting
-[15:40:37] Running: 1
-[15:40:37] Running: 2
-[15:40:37] Running: 3
-[15:40:37] Running: 4
-[15:40:37] Running: 5
-[15:40:37] Quitting
