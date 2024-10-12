@@ -9,8 +9,8 @@
 
 static const char* TIME_FMT = "%H:%M:%S";
 
-void lib::decorators::timestamp_decorator::log(std::string_view msg) const 
-{
+void lib::decorators::timestamp_decorator::log(std::string_view msg) const {
+
     std::ostringstream oss;
 
     auto time_point = std::time(nullptr);

@@ -1,0 +1,117 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "assignment",
+					"childIndexes" : 
+					[
+						2,
+						3
+					],
+					"jsonFile" : "directory-assignment-Debug-9510c87c6dcdc05b1e38.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "assignment",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "assignment/source",
+					"jsonFile" : "directory-assignment.source-Debug-9c1ae5309586d2d07d1d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "assignment/source"
+				},
+				{
+					"build" : "assignment/clib",
+					"jsonFile" : "directory-assignment.clib-Debug-b8b4ca050537cfc431dd.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "assignment/clib",
+					"targetIndexes" : 
+					[
+						1
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					],
+					"name" : "apc_assignment_3",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "assignment::@d3dc7602a705f850d9f3",
+					"jsonFile" : "target-assignment-Debug-3f0c42e7e0a4b4190f19.json",
+					"name" : "assignment",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "clogger::@c539c3d39b9b091847de",
+					"jsonFile" : "target-clogger-Debug-12504afca6dd165562d0.json",
+					"name" : "clogger",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/mnt/c/Uni Year 2/AdvancedProgrammingConcepts/Week3/assignment/build",
+		"source" : "/mnt/c/Uni Year 2/AdvancedProgrammingConcepts/Week3/assignment"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

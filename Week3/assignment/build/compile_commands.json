@@ -1,0 +1,72 @@
+[
+{
+  "directory": "/mnt/c/Uni Year 2/AdvancedProgrammingConcepts/Week3/assignment/build/assignment",
+  "command": "/usr/bin/g++  -I\"/mnt/c/Uni Year 2/AdvancedProgrammingConcepts/Week3/assignment/assignment/include\" -I\"/mnt/c/Uni Year 2/AdvancedProgrammingConcepts/Week3/assignment/assignment/clib\" -g -Wall -Wextra -Wpedantic -Werror -fno-omit-frame-pointer -Wno-gnu-zero-variadic-macro-arguments -Og -g -fsanitize=address -std=c++20 -o CMakeFiles/assignment.dir/main.cpp.o -c \"/mnt/c/Uni Year 2/AdvancedProgrammingConcepts/Week3/assignment/assignment/main.cpp\"",
+  "file": "/mnt/c/Uni Year 2/AdvancedProgrammingConcepts/Week3/assignment/assignment/main.cpp"
+},
+{
+  "directory": "/mnt/c/Uni Year 2/AdvancedProgrammingConcepts/Week3/assignment/build/assignment",
+  "command": "/usr/bin/g++  -I\"/mnt/c/Uni Year 2/AdvancedProgrammingConcepts/Week3/assignment/assignment/include\" -I\"/mnt/c/Uni Year 2/AdvancedProgrammingConcepts/Week3/assignment/assignment/clib\" -g -Wall -Wextra -Wpedantic -Werror -fno-omit-frame-pointer -Wno-gnu-zero-variadic-macro-arguments -Og -g -fsanitize=address -std=c++20 -o CMakeFiles/assignment.dir/source/program.cpp.o -c \"/mnt/c/Uni Year 2/AdvancedProgrammingConcepts/Week3/assignment/assignment/source/program.cpp\"",
+  "file": "/mnt/c/Uni Year 2/AdvancedProgrammingConcepts/Week3/assignment/assignment/source/program.cpp"
+},
+{
+  "directory": "/mnt/c/Uni Year 2/AdvancedProgrammingConcepts/Week3/assignment/build/assignment",
+  "command": "/usr/bin/g++  -I\"/mnt/c/Uni Year 2/AdvancedProgrammingConcepts/Week3/assignment/assignment/include\" -I\"/mnt/c/Uni Year 2/AdvancedProgrammingConcepts/Week3/assignment/assignment/clib\" -g -Wall -Wextra -Wpedantic -Werror -fno-omit-frame-pointer -Wno-gnu-zero-variadic-macro-arguments -Og -g -fsanitize=address -std=c++20 -o CMakeFiles/assignment.dir/source/logger.cpp.o -c \"/mnt/c/Uni Year 2/AdvancedProgrammingConcepts/Week3/assignment/assignment/source/logger.cpp\"",
+  "file": "/mnt/c/Uni Year 2/AdvancedProgrammingConcepts/Week3/assignment/assignment/source/logger.cpp"
+},
+{
+  "directory": "/mnt/c/Uni Year 2/AdvancedProgrammingConcepts/Week3/assignment/build/assignment",
+  "command": "/usr/bin/g++  -I\"/mnt/c/Uni Year 2/AdvancedProgrammingConcepts/Week3/assignment/assignment/include\" -I\"/mnt/c/Uni Year 2/AdvancedProgrammingConcepts/Week3/assignment/assignment/clib\" -g -Wall -Wextra -Wpedantic -Werror -fno-omit-frame-pointer -Wno-gnu-zero-variadic-macro-arguments -Og -g -fsanitize=address -std=c++20 -o CMakeFiles/assignment.dir/source/stream_writer.cpp.o -c \"/mnt/c/Uni Year 2/AdvancedProgrammingConcepts/Week3/assignment/assignment/source/stream_writer.cpp\"",
+  "file": "/mnt/c/Uni Year 2/AdvancedProgrammingConcepts/Week3/assignment/assignment/source/stream_writer.cpp"
+},
+{
+  "directory": "/mnt/c/Uni Year 2/AdvancedProgrammingConcepts/Week3/assignment/build/assignment",
+  "command": "/usr/bin/g++  -I\"/mnt/c/Uni Year 2/AdvancedProgrammingConcepts/Week3/assignment/assignment/include\" -I\"/mnt/c/Uni Year 2/AdvancedProgrammingConcepts/Week3/assignment/assignment/clib\" -g -Wall -Wextra -Wpedantic -Werror -fno-omit-frame-pointer -Wno-gnu-zero-variadic-macro-arguments -Og -g -fsanitize=address -std=c++20 -o CMakeFiles/assignment.dir/source/console_writer.cpp.o -c \"/mnt/c/Uni Year 2/AdvancedProgrammingConcepts/Week3/assignment/assignment/source/console_writer.cpp\"",
+  "file": "/mnt/c/Uni Year 2/AdvancedProgrammingConcepts/Week3/assignment/assignment/source/console_writer.cpp"
+},
+{
+  "directory": "/mnt/c/Uni Year 2/AdvancedProgrammingConcepts/Week3/assignment/build/assignment",
+  "command": "/usr/bin/g++  -I\"/mnt/c/Uni Year 2/AdvancedProgrammingConcepts/Week3/assignment/assignment/include\" -I\"/mnt/c/Uni Year 2/AdvancedProgrammingConcepts/Week3/assignment/assignment/clib\" -g -Wall -Wextra -Wpedantic -Werror -fno-omit-frame-pointer -Wno-gnu-zero-variadic-macro-arguments -Og -g -fsanitize=address -std=c++20 -o CMakeFiles/assignment.dir/source/multi_writer.cpp.o -c \"/mnt/c/Uni Year 2/AdvancedProgrammingConcepts/Week3/assignment/assignment/source/multi_writer.cpp\"",
+  "file": "/mnt/c/Uni Year 2/AdvancedProgrammingConcepts/Week3/assignment/assignment/source/multi_writer.cpp"
+},
+{
+  "directory": "/mnt/c/Uni Year 2/AdvancedProgrammingConcepts/Week3/assignment/build/assignment",
+  "command": "/usr/bin/g++  -I\"/mnt/c/Uni Year 2/AdvancedProgrammingConcepts/Week3/assignment/assignment/include\" -I\"/mnt/c/Uni Year 2/AdvancedProgrammingConcepts/Week3/assignment/assignment/clib\" -g -Wall -Wextra -Wpedantic -Werror -fno-omit-frame-pointer -Wno-gnu-zero-variadic-macro-arguments -Og -g -fsanitize=address -std=c++20 -o CMakeFiles/assignment.dir/source/file_writer_adapter.cpp.o -c \"/mnt/c/Uni Year 2/AdvancedProgrammingConcepts/Week3/assignment/assignment/source/file_writer_adapter.cpp\"",
+  "file": "/mnt/c/Uni Year 2/AdvancedProgrammingConcepts/Week3/assignment/assignment/source/file_writer_adapter.cpp"
+},
+{
+  "directory": "/mnt/c/Uni Year 2/AdvancedProgrammingConcepts/Week3/assignment/build/assignment",
+  "command": "/usr/bin/g++  -I\"/mnt/c/Uni Year 2/AdvancedProgrammingConcepts/Week3/assignment/assignment/include\" -I\"/mnt/c/Uni Year 2/AdvancedProgrammingConcepts/Week3/assignment/assignment/clib\" -g -Wall -Wextra -Wpedantic -Werror -fno-omit-frame-pointer -Wno-gnu-zero-variadic-macro-arguments -Og -g -fsanitize=address -std=c++20 -o CMakeFiles/assignment.dir/source/clogger_as_writer.cpp.o -c \"/mnt/c/Uni Year 2/AdvancedProgrammingConcepts/Week3/assignment/assignment/source/clogger_as_writer.cpp\"",
+  "file": "/mnt/c/Uni Year 2/AdvancedProgrammingConcepts/Week3/assignment/assignment/source/clogger_as_writer.cpp"
+},
+{
+  "directory": "/mnt/c/Uni Year 2/AdvancedProgrammingConcepts/Week3/assignment/build/assignment",
+  "command": "/usr/bin/g++  -I\"/mnt/c/Uni Year 2/AdvancedProgrammingConcepts/Week3/assignment/assignment/include\" -I\"/mnt/c/Uni Year 2/AdvancedProgrammingConcepts/Week3/assignment/assignment/clib\" -g -Wall -Wextra -Wpedantic -Werror -fno-omit-frame-pointer -Wno-gnu-zero-variadic-macro-arguments -Og -g -fsanitize=address -std=c++20 -o CMakeFiles/assignment.dir/source/decorators/timestamp_decorator.cpp.o -c \"/mnt/c/Uni Year 2/AdvancedProgrammingConcepts/Week3/assignment/assignment/source/decorators/timestamp_decorator.cpp\"",
+  "file": "/mnt/c/Uni Year 2/AdvancedProgrammingConcepts/Week3/assignment/assignment/source/decorators/timestamp_decorator.cpp"
+},
+{
+  "directory": "/mnt/c/Uni Year 2/AdvancedProgrammingConcepts/Week3/assignment/build/assignment",
+  "command": "/usr/bin/g++  -I\"/mnt/c/Uni Year 2/AdvancedProgrammingConcepts/Week3/assignment/assignment/include\" -I\"/mnt/c/Uni Year 2/AdvancedProgrammingConcepts/Week3/assignment/assignment/clib\" -g -Wall -Wextra -Wpedantic -Werror -fno-omit-frame-pointer -Wno-gnu-zero-variadic-macro-arguments -Og -g -fsanitize=address -std=c++20 -o CMakeFiles/assignment.dir/source/decorators/runningtime_decorator.cpp.o -c \"/mnt/c/Uni Year 2/AdvancedProgrammingConcepts/Week3/assignment/assignment/source/decorators/runningtime_decorator.cpp\"",
+  "file": "/mnt/c/Uni Year 2/AdvancedProgrammingConcepts/Week3/assignment/assignment/source/decorators/runningtime_decorator.cpp"
+},
+{
+  "directory": "/mnt/c/Uni Year 2/AdvancedProgrammingConcepts/Week3/assignment/build/assignment",
+  "command": "/usr/bin/g++  -I\"/mnt/c/Uni Year 2/AdvancedProgrammingConcepts/Week3/assignment/assignment/include\" -I\"/mnt/c/Uni Year 2/AdvancedProgrammingConcepts/Week3/assignment/assignment/clib\" -g -Wall -Wextra -Wpedantic -Werror -fno-omit-frame-pointer -Wno-gnu-zero-variadic-macro-arguments -Og -g -fsanitize=address -std=c++20 -o CMakeFiles/assignment.dir/source/builder/logger_builder.cpp.o -c \"/mnt/c/Uni Year 2/AdvancedProgrammingConcepts/Week3/assignment/assignment/source/builder/logger_builder.cpp\"",
+  "file": "/mnt/c/Uni Year 2/AdvancedProgrammingConcepts/Week3/assignment/assignment/source/builder/logger_builder.cpp"
+},
+{
+  "directory": "/mnt/c/Uni Year 2/AdvancedProgrammingConcepts/Week3/assignment/build/assignment",
+  "command": "/usr/bin/g++  -I\"/mnt/c/Uni Year 2/AdvancedProgrammingConcepts/Week3/assignment/assignment/include\" -I\"/mnt/c/Uni Year 2/AdvancedProgrammingConcepts/Week3/assignment/assignment/clib\" -g -Wall -Wextra -Wpedantic -Werror -fno-omit-frame-pointer -Wno-gnu-zero-variadic-macro-arguments -Og -g -fsanitize=address -std=c++20 -o CMakeFiles/assignment.dir/source/global/runningtime_provider.cpp.o -c \"/mnt/c/Uni Year 2/AdvancedProgrammingConcepts/Week3/assignment/assignment/source/global/runningtime_provider.cpp\"",
+  "file": "/mnt/c/Uni Year 2/AdvancedProgrammingConcepts/Week3/assignment/assignment/source/global/runningtime_provider.cpp"
+},
+{
+  "directory": "/mnt/c/Uni Year 2/AdvancedProgrammingConcepts/Week3/assignment/build/assignment/clib",
+  "command": "/usr/bin/g++   -g -o CMakeFiles/clogger.dir/file_writer.cpp.o -c \"/mnt/c/Uni Year 2/AdvancedProgrammingConcepts/Week3/assignment/assignment/clib/file_writer.cpp\"",
+  "file": "/mnt/c/Uni Year 2/AdvancedProgrammingConcepts/Week3/assignment/assignment/clib/file_writer.cpp"
+},
+{
+  "directory": "/mnt/c/Uni Year 2/AdvancedProgrammingConcepts/Week3/assignment/build/assignment/clib",
+  "command": "/usr/bin/gcc   -g -o CMakeFiles/clogger.dir/logger.c.o -c \"/mnt/c/Uni Year 2/AdvancedProgrammingConcepts/Week3/assignment/assignment/clib/logger.c\"",
+  "file": "/mnt/c/Uni Year 2/AdvancedProgrammingConcepts/Week3/assignment/assignment/clib/logger.c"
+}
+]
