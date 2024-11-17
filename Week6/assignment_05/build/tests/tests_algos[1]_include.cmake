@@ -1,0 +1,5 @@
+if(EXISTS "/mnt/c/Uni Year 2/AdvancedProgrammingConcepts/Week6/assignment_05/build/tests/tests_algos[1]_tests.cmake")
+  include("/mnt/c/Uni Year 2/AdvancedProgrammingConcepts/Week6/assignment_05/build/tests/tests_algos[1]_tests.cmake")
+else()
+  add_test(tests_algos_NOT_BUILT tests_algos_NOT_BUILT)
+endif()

@@ -1,0 +1,1 @@
+/usr/bin/clang++-18 -g -fsanitize=address -fsanitize=undefined CMakeFiles/tests_iterators.dir/test_runner.cpp.o CMakeFiles/tests_iterators.dir/list_iterator_tests.cpp.o -o tests_iterators  ../../lib/libgtest_maind.a ../../lib/libgmockd.a ../../lib/libgtestd.a 

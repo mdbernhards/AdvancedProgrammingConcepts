@@ -1,0 +1,1 @@
+/usr/bin/clang++-18 -g -fsanitize=address,undefined CMakeFiles/tests_algos.dir/algo_tests.cpp.o CMakeFiles/tests_algos.dir/test_runner.cpp.o -o tests_algos  ../lib/libgtest.a ../lib/libgmock.a ../lib/libgtest.a 

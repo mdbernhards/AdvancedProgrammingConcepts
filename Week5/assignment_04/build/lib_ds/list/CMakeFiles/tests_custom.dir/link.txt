@@ -1,0 +1,1 @@
+/usr/bin/clang++-18 -g -rdynamic CMakeFiles/tests_custom.dir/test_runner.o CMakeFiles/tests_custom.dir/custom_tests.o -o tests_custom   -L"/mnt/c/Uni Year 2/AdvancedProgrammingConcepts/Week5/assignment_04/build/lib"  -llib_ds ../../lib/libgtest_maind.a ../../lib/libgmockd.a ../../lib/libgtestd.a 

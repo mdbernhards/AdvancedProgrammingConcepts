@@ -1,0 +1,1 @@
+/usr/bin/clang++-18 -g -fsanitize=address CMakeFiles/alogs_main.dir/main.cpp.o -o alogs_main 

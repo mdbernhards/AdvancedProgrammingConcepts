@@ -1,0 +1,1 @@
+/usr/bin/clang++-18 -g -rdynamic CMakeFiles/tests_iterators.dir/test_runner.o CMakeFiles/tests_iterators.dir/list_iterator_tests.o -o tests_iterators   -L"/mnt/c/Uni Year 2/AdvancedProgrammingConcepts/Week5/assignment_04/build/lib"  -llib_ds ../../lib/libgtest_maind.a ../../lib/libgmockd.a ../../lib/libgtestd.a 

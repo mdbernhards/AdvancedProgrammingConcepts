@@ -1,0 +1,57 @@
+[
+{
+  "directory": "/mnt/c/Uni Year 2/AdvancedProgrammingConcepts/Week5/assignment_04/build/lib_ds",
+  "command": "/usr/bin/clang++-18  -I\"/mnt/c/Uni Year 2/AdvancedProgrammingConcepts/Week5/assignment_04/lib_ds/include\" -g -Wall -Wextra -Wpedantic -Werror -O0 -g3 -fno-omit-frame-pointer -fsanitize=address -fsanitize=undefined -std=gnu++20 -o CMakeFiles/dummy.dir/dummy.cpp.o -c \"/mnt/c/Uni Year 2/AdvancedProgrammingConcepts/Week5/assignment_04/lib_ds/dummy.cpp\"",
+  "file": "/mnt/c/Uni Year 2/AdvancedProgrammingConcepts/Week5/assignment_04/lib_ds/dummy.cpp"
+},
+{
+  "directory": "/mnt/c/Uni Year 2/AdvancedProgrammingConcepts/Week5/assignment_04/build/tests/list",
+  "command": "/usr/bin/clang++-18  -I\"/mnt/c/Uni Year 2/AdvancedProgrammingConcepts/Week5/assignment_04/lib_ds/include\" -isystem \"/mnt/c/Uni Year 2/AdvancedProgrammingConcepts/Week5/assignment_04/build/_deps/googletest-src/googletest/include\" -isystem \"/mnt/c/Uni Year 2/AdvancedProgrammingConcepts/Week5/assignment_04/build/_deps/googletest-src/googletest\" -isystem \"/mnt/c/Uni Year 2/AdvancedProgrammingConcepts/Week5/assignment_04/build/_deps/googletest-src/googlemock/include\" -isystem \"/mnt/c/Uni Year 2/AdvancedProgrammingConcepts/Week5/assignment_04/build/_deps/googletest-src/googlemock\" -g -Wall -Wextra -Wpedantic -Werror -O0 -g3 -fno-omit-frame-pointer -fsanitize=address -fsanitize=undefined -std=c++20 -o CMakeFiles/tests_custom.dir/test_runner.cpp.o -c \"/mnt/c/Uni Year 2/AdvancedProgrammingConcepts/Week5/assignment_04/tests/list/test_runner.cpp\"",
+  "file": "/mnt/c/Uni Year 2/AdvancedProgrammingConcepts/Week5/assignment_04/tests/list/test_runner.cpp"
+},
+{
+  "directory": "/mnt/c/Uni Year 2/AdvancedProgrammingConcepts/Week5/assignment_04/build/tests/list",
+  "command": "/usr/bin/clang++-18  -I\"/mnt/c/Uni Year 2/AdvancedProgrammingConcepts/Week5/assignment_04/lib_ds/include\" -isystem \"/mnt/c/Uni Year 2/AdvancedProgrammingConcepts/Week5/assignment_04/build/_deps/googletest-src/googletest/include\" -isystem \"/mnt/c/Uni Year 2/AdvancedProgrammingConcepts/Week5/assignment_04/build/_deps/googletest-src/googletest\" -isystem \"/mnt/c/Uni Year 2/AdvancedProgrammingConcepts/Week5/assignment_04/build/_deps/googletest-src/googlemock/include\" -isystem \"/mnt/c/Uni Year 2/AdvancedProgrammingConcepts/Week5/assignment_04/build/_deps/googletest-src/googlemock\" -g -Wall -Wextra -Wpedantic -Werror -O0 -g3 -fno-omit-frame-pointer -fsanitize=address -fsanitize=undefined -std=c++20 -o CMakeFiles/tests_custom.dir/custom_tests.cpp.o -c \"/mnt/c/Uni Year 2/AdvancedProgrammingConcepts/Week5/assignment_04/tests/list/custom_tests.cpp\"",
+  "file": "/mnt/c/Uni Year 2/AdvancedProgrammingConcepts/Week5/assignment_04/tests/list/custom_tests.cpp"
+},
+{
+  "directory": "/mnt/c/Uni Year 2/AdvancedProgrammingConcepts/Week5/assignment_04/build/tests/list",
+  "command": "/usr/bin/clang++-18  -I\"/mnt/c/Uni Year 2/AdvancedProgrammingConcepts/Week5/assignment_04/lib_ds/include\" -isystem \"/mnt/c/Uni Year 2/AdvancedProgrammingConcepts/Week5/assignment_04/build/_deps/googletest-src/googletest/include\" -isystem \"/mnt/c/Uni Year 2/AdvancedProgrammingConcepts/Week5/assignment_04/build/_deps/googletest-src/googletest\" -isystem \"/mnt/c/Uni Year 2/AdvancedProgrammingConcepts/Week5/assignment_04/build/_deps/googletest-src/googlemock/include\" -isystem \"/mnt/c/Uni Year 2/AdvancedProgrammingConcepts/Week5/assignment_04/build/_deps/googletest-src/googlemock\" -g -Wall -Wextra -Wpedantic -Werror -O0 -g3 -fno-omit-frame-pointer -fsanitize=address -fsanitize=undefined -std=c++20 -o CMakeFiles/tests_list.dir/test_runner.cpp.o -c \"/mnt/c/Uni Year 2/AdvancedProgrammingConcepts/Week5/assignment_04/tests/list/test_runner.cpp\"",
+  "file": "/mnt/c/Uni Year 2/AdvancedProgrammingConcepts/Week5/assignment_04/tests/list/test_runner.cpp"
+},
+{
+  "directory": "/mnt/c/Uni Year 2/AdvancedProgrammingConcepts/Week5/assignment_04/build/tests/list",
+  "command": "/usr/bin/clang++-18  -I\"/mnt/c/Uni Year 2/AdvancedProgrammingConcepts/Week5/assignment_04/lib_ds/include\" -isystem \"/mnt/c/Uni Year 2/AdvancedProgrammingConcepts/Week5/assignment_04/build/_deps/googletest-src/googletest/include\" -isystem \"/mnt/c/Uni Year 2/AdvancedProgrammingConcepts/Week5/assignment_04/build/_deps/googletest-src/googletest\" -isystem \"/mnt/c/Uni Year 2/AdvancedProgrammingConcepts/Week5/assignment_04/build/_deps/googletest-src/googlemock/include\" -isystem \"/mnt/c/Uni Year 2/AdvancedProgrammingConcepts/Week5/assignment_04/build/_deps/googletest-src/googlemock\" -g -Wall -Wextra -Wpedantic -Werror -O0 -g3 -fno-omit-frame-pointer -fsanitize=address -fsanitize=undefined -std=c++20 -o CMakeFiles/tests_list.dir/list_tests.cpp.o -c \"/mnt/c/Uni Year 2/AdvancedProgrammingConcepts/Week5/assignment_04/tests/list/list_tests.cpp\"",
+  "file": "/mnt/c/Uni Year 2/AdvancedProgrammingConcepts/Week5/assignment_04/tests/list/list_tests.cpp"
+},
+{
+  "directory": "/mnt/c/Uni Year 2/AdvancedProgrammingConcepts/Week5/assignment_04/build/tests/list",
+  "command": "/usr/bin/clang++-18  -I\"/mnt/c/Uni Year 2/AdvancedProgrammingConcepts/Week5/assignment_04/lib_ds/include\" -isystem \"/mnt/c/Uni Year 2/AdvancedProgrammingConcepts/Week5/assignment_04/build/_deps/googletest-src/googletest/include\" -isystem \"/mnt/c/Uni Year 2/AdvancedProgrammingConcepts/Week5/assignment_04/build/_deps/googletest-src/googletest\" -isystem \"/mnt/c/Uni Year 2/AdvancedProgrammingConcepts/Week5/assignment_04/build/_deps/googletest-src/googlemock/include\" -isystem \"/mnt/c/Uni Year 2/AdvancedProgrammingConcepts/Week5/assignment_04/build/_deps/googletest-src/googlemock\" -g -Wall -Wextra -Wpedantic -Werror -O0 -g3 -fno-omit-frame-pointer -fsanitize=address -fsanitize=undefined -std=c++20 -o CMakeFiles/tests_iterators.dir/test_runner.cpp.o -c \"/mnt/c/Uni Year 2/AdvancedProgrammingConcepts/Week5/assignment_04/tests/list/test_runner.cpp\"",
+  "file": "/mnt/c/Uni Year 2/AdvancedProgrammingConcepts/Week5/assignment_04/tests/list/test_runner.cpp"
+},
+{
+  "directory": "/mnt/c/Uni Year 2/AdvancedProgrammingConcepts/Week5/assignment_04/build/tests/list",
+  "command": "/usr/bin/clang++-18  -I\"/mnt/c/Uni Year 2/AdvancedProgrammingConcepts/Week5/assignment_04/lib_ds/include\" -isystem \"/mnt/c/Uni Year 2/AdvancedProgrammingConcepts/Week5/assignment_04/build/_deps/googletest-src/googletest/include\" -isystem \"/mnt/c/Uni Year 2/AdvancedProgrammingConcepts/Week5/assignment_04/build/_deps/googletest-src/googletest\" -isystem \"/mnt/c/Uni Year 2/AdvancedProgrammingConcepts/Week5/assignment_04/build/_deps/googletest-src/googlemock/include\" -isystem \"/mnt/c/Uni Year 2/AdvancedProgrammingConcepts/Week5/assignment_04/build/_deps/googletest-src/googlemock\" -g -Wall -Wextra -Wpedantic -Werror -O0 -g3 -fno-omit-frame-pointer -fsanitize=address -fsanitize=undefined -std=c++20 -o CMakeFiles/tests_iterators.dir/list_iterator_tests.cpp.o -c \"/mnt/c/Uni Year 2/AdvancedProgrammingConcepts/Week5/assignment_04/tests/list/list_iterator_tests.cpp\"",
+  "file": "/mnt/c/Uni Year 2/AdvancedProgrammingConcepts/Week5/assignment_04/tests/list/list_iterator_tests.cpp"
+},
+{
+  "directory": "/mnt/c/Uni Year 2/AdvancedProgrammingConcepts/Week5/assignment_04/build/_deps/googletest-build/googlemock",
+  "command": "/usr/bin/clang++-18  -I\"/mnt/c/Uni Year 2/AdvancedProgrammingConcepts/Week5/assignment_04/build/_deps/googletest-src/googlemock/include\" -I\"/mnt/c/Uni Year 2/AdvancedProgrammingConcepts/Week5/assignment_04/build/_deps/googletest-src/googlemock\" -isystem \"/mnt/c/Uni Year 2/AdvancedProgrammingConcepts/Week5/assignment_04/build/_deps/googletest-src/googletest/include\" -isystem \"/mnt/c/Uni Year 2/AdvancedProgrammingConcepts/Week5/assignment_04/build/_deps/googletest-src/googletest\" -g -Wall -Wshadow -Werror -Wconversion -DGTEST_HAS_PTHREAD=1 -fexceptions -W -Wpointer-arith -Wreturn-type -Wcast-qual -Wwrite-strings -Wswitch -Wunused-parameter -Wcast-align -Wchar-subscripts -Winline -Wredundant-decls -std=c++20 -o CMakeFiles/gmock.dir/src/gmock-all.cc.o -c \"/mnt/c/Uni Year 2/AdvancedProgrammingConcepts/Week5/assignment_04/build/_deps/googletest-src/googlemock/src/gmock-all.cc\"",
+  "file": "/mnt/c/Uni Year 2/AdvancedProgrammingConcepts/Week5/assignment_04/build/_deps/googletest-src/googlemock/src/gmock-all.cc"
+},
+{
+  "directory": "/mnt/c/Uni Year 2/AdvancedProgrammingConcepts/Week5/assignment_04/build/_deps/googletest-build/googlemock",
+  "command": "/usr/bin/clang++-18  -isystem \"/mnt/c/Uni Year 2/AdvancedProgrammingConcepts/Week5/assignment_04/build/_deps/googletest-src/googlemock/include\" -isystem \"/mnt/c/Uni Year 2/AdvancedProgrammingConcepts/Week5/assignment_04/build/_deps/googletest-src/googlemock\" -isystem \"/mnt/c/Uni Year 2/AdvancedProgrammingConcepts/Week5/assignment_04/build/_deps/googletest-src/googletest/include\" -isystem \"/mnt/c/Uni Year 2/AdvancedProgrammingConcepts/Week5/assignment_04/build/_deps/googletest-src/googletest\" -g -Wall -Wshadow -Werror -Wconversion -DGTEST_HAS_PTHREAD=1 -fexceptions -W -Wpointer-arith -Wreturn-type -Wcast-qual -Wwrite-strings -Wswitch -Wunused-parameter -Wcast-align -Wchar-subscripts -Winline -Wredundant-decls -std=c++20 -o CMakeFiles/gmock_main.dir/src/gmock_main.cc.o -c \"/mnt/c/Uni Year 2/AdvancedProgrammingConcepts/Week5/assignment_04/build/_deps/googletest-src/googlemock/src/gmock_main.cc\"",
+  "file": "/mnt/c/Uni Year 2/AdvancedProgrammingConcepts/Week5/assignment_04/build/_deps/googletest-src/googlemock/src/gmock_main.cc"
+},
+{
+  "directory": "/mnt/c/Uni Year 2/AdvancedProgrammingConcepts/Week5/assignment_04/build/_deps/googletest-build/googletest",
+  "command": "/usr/bin/clang++-18  -I\"/mnt/c/Uni Year 2/AdvancedProgrammingConcepts/Week5/assignment_04/build/_deps/googletest-src/googletest/include\" -I\"/mnt/c/Uni Year 2/AdvancedProgrammingConcepts/Week5/assignment_04/build/_deps/googletest-src/googletest\" -g -Wall -Wshadow -Werror -Wconversion -DGTEST_HAS_PTHREAD=1 -fexceptions -W -Wpointer-arith -Wreturn-type -Wcast-qual -Wwrite-strings -Wswitch -Wunused-parameter -Wcast-align -Wchar-subscripts -Winline -Wredundant-decls -std=c++20 -o CMakeFiles/gtest.dir/src/gtest-all.cc.o -c \"/mnt/c/Uni Year 2/AdvancedProgrammingConcepts/Week5/assignment_04/build/_deps/googletest-src/googletest/src/gtest-all.cc\"",
+  "file": "/mnt/c/Uni Year 2/AdvancedProgrammingConcepts/Week5/assignment_04/build/_deps/googletest-src/googletest/src/gtest-all.cc"
+},
+{
+  "directory": "/mnt/c/Uni Year 2/AdvancedProgrammingConcepts/Week5/assignment_04/build/_deps/googletest-build/googletest",
+  "command": "/usr/bin/clang++-18  -isystem \"/mnt/c/Uni Year 2/AdvancedProgrammingConcepts/Week5/assignment_04/build/_deps/googletest-src/googletest/include\" -isystem \"/mnt/c/Uni Year 2/AdvancedProgrammingConcepts/Week5/assignment_04/build/_deps/googletest-src/googletest\" -g -Wall -Wshadow -Werror -Wconversion -DGTEST_HAS_PTHREAD=1 -fexceptions -W -Wpointer-arith -Wreturn-type -Wcast-qual -Wwrite-strings -Wswitch -Wunused-parameter -Wcast-align -Wchar-subscripts -Winline -Wredundant-decls -std=c++20 -o CMakeFiles/gtest_main.dir/src/gtest_main.cc.o -c \"/mnt/c/Uni Year 2/AdvancedProgrammingConcepts/Week5/assignment_04/build/_deps/googletest-src/googletest/src/gtest_main.cc\"",
+  "file": "/mnt/c/Uni Year 2/AdvancedProgrammingConcepts/Week5/assignment_04/build/_deps/googletest-src/googletest/src/gtest_main.cc"
+}
+]
